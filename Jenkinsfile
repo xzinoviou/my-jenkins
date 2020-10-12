@@ -4,7 +4,7 @@ pipeline {
         stage('Build'){
             steps{
                 echo '[--- Building step ---]'
-                sleep 6
+                sleep 7
                 echo 'Finished Building'
                 echo "STEP : END"
                 
